@@ -1,0 +1,84 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: var(--deep-indigo);
+    color: var(--cool-gray);
+}
+
+body.dark-mode .main-nav {
+    background-color: rgba(10, 35, 66, 0.9);
+}
+
+body.dark-mode .logo h1 {
+    color: var(--white);
+}
+
+body.dark-mode .nav-links a {
+    color: var(--cool-gray);
+}
+
+body.dark-mode .nav-links a:hover {
+    color: var(--burnt-orange);
+}
+
+body.dark-mode .svg-divider .shape-fill {
+    fill: var(--deep-indigo);
+}
+
+body.dark-mode .svg-divider.mountains .shape-fill {
+    fill: var(--slate);
+}
+
+body.dark-mode .svg-divider.mountains-reverse .shape-fill {
+    fill: var(--slate);
+}
+
+body.dark-mode .section-title {
+    color: var(--burnt-orange);
+}
+
+body.dark-mode .content-card {
+    background-color: var(--slate);
+    color: var(--cool-gray);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .education-section {
+    background-color: var(--slate);
+}
+
+body.dark-mode .skills-section {
+    background-color: var(--slate);
+}
+
+body.dark-mode .activities-section {
+    background-color: var(--deep-indigo);
+}
+
+body.dark-mode .activities-section .activity-icon {
+    color: var(--burnt-orange);
+}
+
+body.dark-mode .activities-section .activity-icon svg {
+    stroke: var(--burnt-orange);
+}
+
+body.dark-mode .contact-section {
+    background-color: var(--slate);
+}
+
+body.dark-mode .contact-card {
+    background-color: rgba(10, 35, 66, 0.5);
+}
+
+body.dark-mode footer {
+    background-color: var(--deep-indigo);
+}
+
+/* Dark mode campfire animation */
+body.dark-mode .flame {
+    background-color: var(--burnt-orange);
+}
+
+body.dark-mode .logs {
+    background-color: var(--cool-gray);
+}

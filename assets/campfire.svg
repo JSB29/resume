@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
+  <!-- Logs -->
+  <rect x="5" y="20" width="20" height="5" rx="1" fill="#4A4A4A" />
+  
+  <!-- Flames -->
+  <g class="flames">
+    <path d="M10,10 Q12,5 15,10 Q18,5 20,10 Q21,15 15,20 Q9,15 10,10 Z" fill="#FF6B35">
+      <animate attributeName="d" dur="1s" repeatCount="indefinite" values="
+        M10,10 Q12,5 15,10 Q18,5 20,10 Q21,15 15,20 Q9,15 10,10 Z;
+        M11,11 Q13,4 15,9 Q17,4 19,11 Q22,16 15,19 Q8,16 11,11 Z;
+        M10,10 Q12,5 15,10 Q18,5 20,10 Q21,15 15,20 Q9,15 10,10 Z"
+      />
+    </path>
+  </g>
+</svg>
